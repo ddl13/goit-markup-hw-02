@@ -1,0 +1,225 @@
+/* Palette
+primary white color #FFFFFF
+secondary blue color #2196F3
+black text color for headers #212121
+description text color #757575
+primary black background color #2F303A
+secondary white background color #F5F4FA
+completly dark color #000000
+ */
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #2196f3;
+  --header-text-color: #212121;
+  --description-text-color: #757575;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --dark-logo-color: #000000;
+  --white-transparent-color: rgba(255, 255, 255, 0.6);
+}
+
+/* general */
+body {
+  color: var(--description-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.section-title {
+  color: var(--header-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.button {
+  cursor: pointer;
+  font-family: inherit;
+}
+/* general header */
+.page-header-logo {
+  color: var(--dark-logo-color);
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.accent {
+  color: var(--secondary-color);
+}
+
+.site-nav .link {
+  color: var(--header-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--secondary-color);
+}
+
+.site-nav .link.current {
+  color: var(--secondary-color);
+}
+
+.header-address .link {
+  color: inherit;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-address .link:hover,
+.header-address .link:focus {
+  color: var(--secondary-color);
+}
+
+/* general footer  */
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-logo {
+  color: var(--primary-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-info {
+  color: var(--white-transparent-color);
+}
+
+.footer-info:hover,
+.footer-info:focus {
+  color: var(--secondary-color);
+}
+
+.google-map {
+  color: var(--primary-color);
+}
+
+.google-map:hover,
+.google-map:focus {
+  color: var(--secondary-color);
+}
+
+.page-footer {
+  background-color: var(--primary-background-color);
+}
+
+/* main */
+/* hero page */
+
+.hero-page {
+  background-color: var(--primary-background-color);
+}
+.hero-header {
+  color: var(--primary-color);
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.blue-button {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  margin: auto;
+  display: block;
+}
+/* What do we do section */
+.what-we-do .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* About company section */
+.about-company .section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* Our team section */
+.our-team {
+  background-color: var(--secondary-background-color);
+}
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.worker-description {
+  font-size: 16px;
+  line-height: 1.18px;
+}
+/* portfolio */
+.portfolio-section p {
+  color: var(--description-text-color);
+}
+
+.portfolio-section .section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.partfolio-description {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.white-button {
+  color: var(--header-text-color);
+  background-color: var(--secondary-background-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.white-button:hover,
+.white-button:focus {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}

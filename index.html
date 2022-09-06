@@ -5,56 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="page-header">
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a href="./index.html" class="page-header-logo"
+          ><span class="accent">Web</span>Studio</a
+        >
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link current">Студія</a></li>
+          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-address">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!--Unique pages-->
     <main>
       <!--Hero-->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero-page">
+        <h1 class="hero-header">
+          Ефективні рішення для<br />
+          вашого бізнесу
+        </h1>
+        <button type="button" class="button blue-button">
+          Замовити послугу
+        </button>
       </section>
       <!--About company-->
-      <section>
-        <h2>Про нашу компанію</h2>
+      <section class="section about-company">
+        <h2 class="section-title" hidden>Про нашу компанію</h2>
         <ul>
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <h3 class="section-title">Увага до деталей</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <h3 class="section-title">Пунктуальність</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
+            <h3 class="section-title">Планування</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3 class="section-title">Сучачні технології</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -63,8 +79,8 @@
         </ul>
       </section>
       <!-- What do we do? -->
-      <section>
-        <h2>Чим ми займаємося</h2>
+      <section class="section what-we-do">
+        <h2 class="section-title">Чим ми займаємося</h2>
         <ul>
           <li>
             <img src="./images/img.jpg" alt="Картинка роботи №1" width="370" />
@@ -78,8 +94,8 @@
         </ul>
       </section>
       <!-- Our team -->
-      <section>
-        <h3>Наша команда</h3>
+      <section class="section our-team">
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -87,8 +103,8 @@
               alt="Перший працівник"
               width="270"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="section-title">Ігор Дем'яненко</h3>
+            <p class="worker-description">Product Designer</p>
           </li>
           <li>
             <img
@@ -96,8 +112,8 @@
               alt="Другий працівник"
               width="270"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="section-title">Ольга Рєпіна</h3>
+            <p class="worker-description">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -105,8 +121,8 @@
               alt="Третій працівник"
               width="270"
             />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="section-title">Микола Тарасов</h3>
+            <p class="worker-description">Marketing</p>
           </li>
           <li>
             <img
@@ -114,26 +130,37 @@
               alt="Четвертий працівник"
               width="270"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="section-title">Михайло Єрмаков</h3>
+            <p class="worker-description">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/">WebStudio</a>
-      <address>
+    <footer class="page-footer">
+      <a href="./index.html" class="footer-logo"
+        ><span class="accent">Web</span>Studio</a
+      >
+      <address class="footer-address">
         <ul>
           <li>
             <a
               href="https://goo.gl/maps/tUJnpnbdcwp7W9dC6"
               target="_blank"
               rel="noreferrer noopener"
+              class="google-map"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-info"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="footer-info"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
