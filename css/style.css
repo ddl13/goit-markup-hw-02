@@ -24,6 +24,7 @@ body {
   color: var(--description-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 .section-title {
@@ -59,7 +60,7 @@ a {
   color: var(--header-text-color);
 
   font-weight: 500;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -89,7 +90,7 @@ a {
 
 /* general footer  */
 .footer-address {
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.71;
 }
 
@@ -103,6 +104,7 @@ a {
 
 .footer-info {
   color: var(--white-transparent-color);
+  font-style: normal;
 }
 
 .footer-info:hover,
@@ -112,6 +114,7 @@ a {
 
 .google-map {
   color: var(--primary-color);
+  font-style: normal;
 }
 
 .google-map:hover,
